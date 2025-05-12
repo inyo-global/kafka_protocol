@@ -40,7 +40,7 @@ range(API) -> kpro_schema:vsn_range(API).
 
 -spec kafka_09_range(kpro:api()) -> false | range().
 kafka_09_range(produce) -> {0, 0};
-kafka_09_range(fetch) -> {0, 0};
+kafka_09_range(fetch) -> {4, 4};
 kafka_09_range(list_offsets) -> {0, 0};
 kafka_09_range(metadata) -> {0, 0};
 kafka_09_range(offset_commit) -> {2, 2};
